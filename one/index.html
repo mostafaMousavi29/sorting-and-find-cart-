@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Album Viewer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h2 style="text-align:center;">جستجوی سریع آلبوم‌ها</h2>
+<div style="text-align:center; margin-bottom: 20px;">
+    <input type="text" id="searchInput" placeholder="جستجو..." style="padding:5px; width:300px;">
+</div>
+
+<div id="loader" style="display:none; text-align:center; margin-bottom:20px;">
+    <span>در حال پردازش...</span>
+</div>
+<h1 style="text-align:center;">گالری آلبوم‌ها</h1>
+<div id="app" class="album-grid"></div>
+
+<h2 style="text-align:center;">مقایسه آلبوم‌ها</h2>
+<div id="compare" class="compare-grid"></div>
+
+<script type="module" src="./index.js"></script>
+</body>
+</html>
